@@ -41,6 +41,17 @@ body {
   margin: 0px;
 }
 
+.poem {
+  font-family: "sriracha", Arial, Helvetica, sans-serif;
+  font-size: 4vw;
+
+  text-align: left;
+  max-width: 37vw;
+  margin: 30px;
+  
+  
+}
+
 div {
   width: 100%;
 }
@@ -52,13 +63,45 @@ pre {
   text-align: left;
   width: 100%;
 
+  
 }
 
 #parallax1 {
   background-image: url("../imagens/background001.jpg");
-  background-size: 100%;
+  min-height: 350px;
   
-  background-attachment: local;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+
   color: white;
+}
+
+#parallax2 {
+  background-image: url("../imagens/background002.jpg");
+  min-height: 350px;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+
+  font-size: 20px;
+  text-align: center;
+
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
